@@ -1,4 +1,4 @@
-# CalculadoraIMC
+# Calculadora-IMC
 Exercício simples de calculadora de IMC
 
 Inserir o Peso  = ex : 80
