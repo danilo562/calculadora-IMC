@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculo Massa Corporal</title>
+        <link href="assets/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <form  name="formImc">
+        <div class="letter">
+            <h1 class= "row letter=title">
+                Calculo Massa Corporal
+            </h1>
+            <h2 class=" row letter=subtitle">
+                Insira seus dados abaixo
+            </h2>
+            <p class="letter=content">
+                <div class="row">
+                    <label class="control-label">Peso</label>
+                    <input class="sub-row" name="numPeso" type="number" placeholder="Digite seu peso"/>
+                </div>
+                <div class="row">
+                    <label class="control-label" >Altura</label>
+                    <input type="text" name="numAltura" placeholder="Digite sua altura"/>
+                </div>
+               
+                <div class="row">
+                    <a class="button button1" href="#" onclick="calcular();">Calcular</a>
+                </div>
+                <div class="row line-result">
+                    <label class="control-label"><b>RESULTADO: <span id="resultado"></span></b></label>
+                </div>
+            </p>
+        </div>
+    </body>
+    <script src="js/controller.js"></script>
+</html>
