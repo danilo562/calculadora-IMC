@@ -7,12 +7,16 @@ function calcular(){
 
     if (imc < 18.5) {
         situacao = 'Magreza';
+        document.getElementById("manipula").style.backgroundColor = "blue";
     } else if (imc >= 18.5 && imc <= 24.9) {
         situacao = 'Normal';
+        document.getElementById("manipula").style.backgroundColor = "green";
     } else if (imc > 24.9 && imc <= 30) {
         situacao = 'Sobrepeso';
+        document.getElementById("manipula").style.backgroundColor = "red";
     } else {
         situacao = 'Obesidade';
+        document.getElementById("manipula").style.backgroundColor = "purple";
     }
 
     var spanResultado = document.getElementById("resultado");   
